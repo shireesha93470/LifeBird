@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    border: 1px solid white; 
+    background-image: linear-gradient(to left, #08162a, #00243a, #00323b, #003e2c, #134811);
+    height: 100px;
+    width: 100%;
+    color:white;
+}
+ 
+.home{
+    margin-left: 990px;
+    margin-top: 29px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 34px;
+    color:white;
+ }
+.navtext{
+    margin-left: 50px;
+    margin-top: 29px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 34px;
+    color:white;
+}
+
+.logo{
+    margin-left: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50px;
+    height:80px;
+    width:200px;
+    margin-top: 10px;
+}
