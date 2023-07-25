@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     border: 1px solid white; 
-    background-image: linear-gradient(to left, #08162a, #00243a, #00323b, #003e2c, #134811);
+    background: linear-gradient(90deg, rgba(0,36,24,1) 0%, rgba(127,226,223,1) 0%, rgba(141,227,219,0.6278886554621849) 80%, rgba(0,212,255,0.9164040616246498) 100%);
     height: 100px;
     width: 100%;
     color:white;
@@ -9,19 +9,17 @@
  
 .home{
     margin-left: 990px;
-    margin-top: 29px;
+    margin-top: 39px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-    font-size: 34px;
-    color:white;
+    font-size: 24px;
+    color:rgb(0, 0, 0);
  }
 .navtext{
     margin-left: 50px;
-    margin-top: 29px;
+    margin-top: 39px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-    font-size: 34px;
-    color:white;
+    font-size: 24px;
+    color:rgb(6, 6, 6);
 }
 
 .logo{

@@ -1,5 +1,5 @@
-.main-card{
-    height: 800px;
+.mainCard{
+    height: 450px;
     width:1200px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px; 
@@ -7,24 +7,24 @@
     margin-top: 85px;
     display: flex;
 }
-.sub-card1{
+.subCard1{
     height:100%;
     width:50%;
    
 }
-.sub-card2{
+.subCard2{
     height:100%;
     width:65%;
     background-color: rgb(45, 165, 165);
 }
-.subcard2 h1{
+.subCard2 h1{
     text-align: center;
-	color: white;
+	color: rgb(0, 0, 0);
 }
-.input{
+.Input{
 	margin: 40px 0px;
 }
-.details{
+.Details{
 	width: 50%;
 	font-size: 20px;
 	outline: none;
@@ -32,12 +32,13 @@
 	border: none;
 	border-bottom: 1px solid #fefdfd;
 	color:white;
+   
 }
 .center{
 	text-align: center;
 }
 
-.login{
+.Login{
 	background-color: rgba(0, 0, 0 , 0);
 	border :1px solid white;
 	color: white;
@@ -47,23 +48,25 @@
 	font-size: 20px;
 	font-weight: bold 
 }	
-.login:hover{
+.Login:hover{
 	background-color: white;
 	cursor: pointer;
 	color: black;
 	font-style: italic;
 }
-
-.login-text{
+.Login-text{
 	margin-left: 300px;
 	color: white;
 }
 
-.white{
+.subCard1 img{
+	height:450px;
+	width:600px;
+}
+ ::placeholder{
+	color:white;
+}
+.White{
 	color:white;
 	text-decoration: none;
-}
-.sub-card1 img{
-	height:800px;
-	width:650px;
 }

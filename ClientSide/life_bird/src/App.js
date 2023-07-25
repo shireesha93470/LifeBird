@@ -1,14 +1,10 @@
 import './App.css';
-//import  NavBar from './Components/Navbar/navbar';
-//import Footer from './Components/Footer/footer';
-import Signup from './Components/Signuppage/signup';
+import Routers from './Components/routes/routes';
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBar/>
-      <Footer/> */}
-      <Signup/>
+     <Routers/>
     </div>
   );
 }

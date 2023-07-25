@@ -1,0 +1,77 @@
+.main{
+    height:600px;
+    width:100%;
+    background-color: hsla(89, 43%, 51%, 0.3);
+}
+.round{
+    height:500px;
+    width:100%;
+    display: flex;
+}
+.small-round{
+    height:250px;
+    width:250px;
+    border-radius: 100%;
+    background-color: #92a8d1;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slideshow 9s infinite;
+    margin-top: 480px;
+    margin-left:100px;
+    border-radius: 10px;
+    }
+    @keyframes slideshow {
+    0%, 100% {
+    background-image: url("https://gomohealth.com/wp-content/uploads/2018/09/Hospital-Bed-Family-Talking-Doctor-Gradient-Background.jpg");
+    }
+    33%, 86% {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-world-diabetes-day-diabetes-medical-doctors-image_18559.jpg");
+    color: white;
+    }
+    50% {
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-spring-medical-cartoon-doctor-medical-poster-picture-image_1051487.jpg");
+    }
+    }
+  .card-boxes{
+    height:300px;
+    width:100%;
+    display: flex;
+    margin-top: 50px;
+  }
+  .small-cards{
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+    background-color: rgb(184, 175, 164);
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .small-cards1{
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+    background-color: rgb(184, 175, 164);
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+  .main-cards{
+    height:700px;
+    width:100%;
+    background-color: #edf1f7;
+    margin-top: 450px;
+  }
+  .small-round img{
+    height:250px;
+    width:250px;
+    border-radius: 100%;
+  }
